@@ -13,7 +13,8 @@ import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
-
+import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 
@@ -23,7 +24,9 @@ import { ExperienceComponent } from './experience/experience.component';
     NavbarComponent,
     FooterComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ProjectsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
