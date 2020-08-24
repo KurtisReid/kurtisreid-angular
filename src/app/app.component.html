@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/park.jpg');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="avatar">
+                    <img src="./assets/img/faces/IMG_0347.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                </div>
+                <div class="name">
+                    <h4 class="title">Kurtis Reid<br /></h4>
+                    <h6 class="description">Software Developer</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p>Dedicated, hardworking individual currently seeking a software engineering position in the Boston, Massachusetts area.</p>
+                    <br />
+                    <app-skills></app-skills>
+                      <app-education></app-education>
+                </div>
+            </div>
+            <br/>
+
+<app-experience></app-experience>
+
+  <app-projects></app-projects>
+
+
+<!--<router-outlet></router-outlet>-->
+<app-footer *ngIf="removeFooter()"></app-footer>
